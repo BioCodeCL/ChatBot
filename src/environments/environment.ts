@@ -4,5 +4,9 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  dialogflow: {
+    tesoBot: '80b5df8bb29145cda90e9cf415f20638'
+  }
 };
